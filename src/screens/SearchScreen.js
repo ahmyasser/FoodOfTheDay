@@ -4,7 +4,6 @@ import SearchBar from '../components/SearchBar';
 import yelp from '../apis/yelp';
 import useResaults from '../hooks/useResaults';
 import ResaultLists from '../components/ResaultLists';
-
 const SearchScreen =()=>{
 
   const [term, onTermChange]= useState("");

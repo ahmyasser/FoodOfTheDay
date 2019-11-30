@@ -7,6 +7,7 @@ const ResaultLists=({title, res, navigation}) =>{
   if(!res.length){
     return null;
   }
+  
   return(
     <View style={styles.container}>
       <Text style={styles.titleStyle}>{title}</Text>
